@@ -94,6 +94,22 @@ npm start
 The server needs write access to the directory holding `STURDY_DB_PATH` and to
 `public/uploads`. No external database or service is required.
 
+## Deploying to Vercel
+
+Vercel runs the app on a read-only project filesystem. When `STURDY_DB_PATH` is not set,
+the app stores SQLite at `/tmp/sturdy.db` and admin uploads at `/tmp/uploads`. The public
+site, seeded catalogue, search, product pages, and local cart work on a cold start.
+
+`/tmp` is per instance and temporary. Catalogue edits and uploaded images can disappear
+when Vercel starts a new instance. That is fine for a study demo, but not for a real shop.
+For durable content, use a hosted database and object storage, or run this on a host with
+a persistent disk.
+
+Set the project to Node.js 24. The `engines` field asks Vercel for that version, but the
+project setting can override it. If you want an admin account on the deployment, set
+`ADMIN_EMAIL` and `ADMIN_PASSWORD` in Vercel's environment settings. Leave
+`STURDY_DB_PATH` unset there so the `/tmp` fallback is used.
+
 ## Testing
 
 ```bash

@@ -1,6 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { randomUUID } from "node:crypto";
 import { join } from "node:path";
+import { getUploadDirectory } from "@/lib/uploadPaths";
 
 const MAX_IMAGE_BYTES = 5 * 1024 * 1024;
 
@@ -50,7 +51,7 @@ export async function saveUploadedImage(file: File | null): Promise<string | nul
     throw new Error("Uploaded file is not a valid image.");
   }
 
-  const directory = join(process.cwd(), "public", "uploads");
+  const directory = getUploadDirectory();
   await mkdir(directory, { recursive: true });
 
   const filename = `${randomUUID()}${extension}`;

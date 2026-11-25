@@ -1,7 +1,7 @@
 {
   "name": "stussy-port",
   "version": "1.0.0",
-  "description": "High-fidelity Stüssy homepage port built with Next.js and React.",
+  "description": "Local Stüssy storefront study for learning framework and web design.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +9,9 @@
     "typecheck": "tsc --noEmit",
     "test": "playwright test",
     "test:ui": "playwright test --ui"
+  },
+  "engines": {
+    "node": "24.x"
   },
   "license": "UNLICENSED",
   "type": "module",

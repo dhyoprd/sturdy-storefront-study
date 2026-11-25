@@ -1,4 +1,5 @@
 import { mkdirSync } from "node:fs";
+import { tmpdir } from "node:os";
 import { dirname, isAbsolute, join } from "node:path";
 import { DatabaseSync } from "node:sqlite";
 import { liveCollections, liveProducts } from "@/lib/catalogSeed";
@@ -85,11 +86,20 @@ const PRODUCT_COLUMN_MIGRATIONS: Array<[string, string]> = [
 let database: DatabaseSync | undefined;
 
 function databasePath() {
-  const configuredPath = process.env.STURDY_DB_PATH ?? ".data/sturdy.db";
+  const configuredPath = process.env.STURDY_DB_PATH?.trim();
   if (configuredPath === ":memory:") return configuredPath;
-  return isAbsolute(configuredPath)
-    ? configuredPath
-    : join(/* turbopackIgnore: true */ process.cwd(), configuredPath);
+  if (configuredPath) {
+    if (process.env.VERCEL && !isAbsolute(configuredPath)) {
+      return join(/* turbopackIgnore: true */ tmpdir(), "sturdy.db");
+    }
+    return isAbsolute(configuredPath)
+      ? configuredPath
+      : join(/* turbopackIgnore: true */ process.cwd(), configuredPath);
+  }
+
+  return process.env.VERCEL
+    ? join(/* turbopackIgnore: true */ tmpdir(), "sturdy.db")
+    : join(/* turbopackIgnore: true */ process.cwd(), ".data", "sturdy.db");
 }
 
 function migrateProductColumns(db: DatabaseSync) {
