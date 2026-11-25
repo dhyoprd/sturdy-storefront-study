@@ -1,0 +1,129 @@
+.admin-homepage {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.admin-homepage__form {
+  margin-top: 18px;
+}
+
+.admin-homepage__list {
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.admin-homepage .admin-field__input[type="file"] {
+  height: auto;
+  padding: 9px 0;
+  font-size: 10px;
+}
+
+.admin-homepage .admin-field__input[type="file"]::file-selector-button {
+  margin-right: 10px;
+  padding: 6px 10px;
+  border: 1px solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.admin-homepage .admin-field__input[type="file"]::file-selector-button:hover,
+.admin-homepage .admin-field__input[type="file"]::file-selector-button:focus-visible {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.admin-homepage .hero-slide-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.hero-slide-row__preview {
+  max-width: 160px;
+}
+
+.hero-slide-row__details {
+  min-width: 0;
+}
+
+.hero-slide-row__details .admin-list__meta {
+  overflow-wrap: anywhere;
+}
+
+.hero-slide-row__active {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+  padding: 2px 6px;
+  border: 1px solid var(--ink);
+  font-size: 9px;
+  line-height: 12px;
+  vertical-align: middle;
+}
+
+.hero-slide-row__form {
+  min-width: 0;
+  gap: 12px;
+}
+
+.hero-slide-row__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.hero-slide-row__actions form {
+  display: flex;
+}
+
+.hero-slide-row__actions .button-outline {
+  width: auto;
+  min-width: 120px;
+  padding: 0 16px;
+}
+
+.hero-slide-row__actions .button-outline:disabled {
+  border-color: var(--line);
+  color: var(--gray);
+  cursor: default;
+}
+
+.hero-slide-row__delete {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.hero-slide-row__delete:hover,
+.hero-slide-row__delete:focus-visible {
+  text-decoration-thickness: 2px;
+}
+
+.admin-homepage__empty {
+  margin: 18px 0 0;
+  padding: 18px 0;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--line);
+  color: var(--gray);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+@media (min-width: 900px) {
+  .admin-homepage .hero-slide-row {
+    grid-template-columns: 140px minmax(0, 1fr) minmax(260px, 340px) auto;
+  }
+
+  .hero-slide-row__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

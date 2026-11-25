@@ -1,0 +1,76 @@
+.modal-newsletter {
+  min-height: 124px;
+  padding: 15px;
+}
+
+.modal-newsletter__close,
+.modal-country__close {
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.modal-newsletter__close {
+  top: 15px;
+  right: 15px;
+}
+
+.modal-newsletter__title {
+  padding-right: 20px;
+}
+
+.modal-newsletter .newsletter-form {
+  height: 35px;
+  border-bottom: 1px solid var(--ink);
+}
+
+.modal-newsletter .newsletter-form__input {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.modal-newsletter .newsletter-form__submit {
+  margin-left: 12px;
+}
+
+.modal-newsletter .newsletter-success {
+  padding-top: 0;
+}
+
+.modal-country {
+  padding: 20px;
+}
+
+.modal-country__close {
+  top: 20px;
+  right: 20px;
+}
+
+.modal-country__title {
+  padding-right: 20px;
+}
+
+.modal-country__select {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  background: var(--paper);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.modal-country__save {
+  margin-top: 14px;
+}
+
+@media (max-width: 1023px) {
+  .modal-newsletter .newsletter-form__input {
+    font-size: 12px;
+  }
+}

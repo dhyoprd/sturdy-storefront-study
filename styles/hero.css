@@ -1,0 +1,32 @@
+.home-main {
+  min-height: 100vh;
+  min-height: 100svh;
+  background: var(--paper);
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+.hero__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero__image {
+  width: 65%;
+  height: auto;
+}
+
+@media (max-width: 1023px) {
+  .hero__image {
+    width: 100%;
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "email": "support@stussy.com",
+  "hours": [
+    "Monday – Friday",
+    "8:00am - 4:00pm PST",
+    "Excluding the weekend and major holidays."
+  ],
+  "socials": [
+    "Instagram",
+    "Vimeo",
+    "WeChat",
+    "Weibo"
+  ],
+  "faqs": [
+    {
+      "question": "WILL MY ORDER ARRIVE IN TIME FOR THE HOLIDAYS?",
+      "answer": "To have your orders shipped in time for the Holidays, all orders should be placed no later than 12/11/2026."
+    },
+    {
+      "question": "MY ORDER IS A GIFT, DO YOU INCLUDE THE PRICE IN THE PACKAGE?",
+      "answer": "We do not include prices on our packing slips."
+    },
+    {
+      "question": "DO YOU OFFER GIFT RECEIPTS OR GIFT CARDS?",
+      "answer": "We do not offer gift receipts or gift cards."
+    },
+    {
+      "question": "I RECEIVED AN ITEM FROM STUSSY.COM AS A GIFT. CAN I RETURN IT OR EXCHANGE IT?",
+      "answer": "We do not offer exchanges. You will have to contact the purchaser to return the product and purchase the updated item we have in stock."
+    },
+    {
+      "question": "HOW DO I START A RETURN?",
+      "answer": "You have up to 21 days upon delivery to return items purchased on stussy.com.\nVisit our self service returns portals by simply clicking the link below:\n- Returns Portal\nHERE\n- All return submissions are subject to review.\nOnce received and inspected at our facility, allow 3-5 business days for your refund to process."
+    },
+    {
+      "question": "HOW DO I KNOW MY ORDER IS CONFIRMED?",
+      "answer": "Every order is subject to review.  The order is confirmed once you receive a shipping confirmation email. Please check your spam inbox."
+    },
+    {
+      "question": "WHAT PAYMENT METHODS DO YOU TAKE?",
+      "answer": "Stussy.com and Global-E accepts all major credit cards including:\nVisa, MasterCard, American Express,  Discover, and PayPal\n. Payments made via PayPal must be purchased by a verified account with a confirmed shipping address.\nOther payment methods will vary per region:\nApple Pay, Google Pay, etc.\nInternational orders will appear as Global-E on bank statements."
+    },
+    {
+      "question": "DO YOU SHIP INTERNATIONALLY?",
+      "answer": "Yes, we ship to select countries internationally. Please note that orders shipped outside the U.S. are subject to non-refundable customs duties and taxes, which are factored into your total paid at checkout via Global-E.\nStussy.com currently ships to the following countries: AR, BR, CA, CO, CR, DO, EC, HK, ID, IL, KW, MY, MX, PA, PH, QA, RU, SA, SG, TW, AE, UA, UY, VN, ZA"
+    },
+    {
+      "question": "WHEN WILL I RECEIVE MY ORDER?",
+      "answer": "Orders are processed Monday – Friday and shipped within 3-7 business days, excluding the weekend and major holidays.\nOnce your order is shipped, you will receive a shipping confirmation email with your tracking information. Allow 48-72 business hours for your tracking information to update with an estimated delivery date."
+    },
+    {
+      "question": "CAN I MAKE MODIFICATIONS TO MY ORDER AFTER IT'S BEEN PLACED?",
+      "answer": "Once an order has been confirmed, it can't be modified or adjusted."
+    },
+    {
+      "question": "HOW CAN I CANCEL MY ORDER?",
+      "answer": "Reach out to Customer Support with your order number and email address to submit a cancellation request. If your order was placed during peak periods or over the weekend, cancellations may not be possible.\nCancellations are not guaranteed.\nDisclaimer: The abuse of cancellations that are deemed as unusual activity will be suspended from future cancellations. For more information, please review our\nterms of use\n."
+    },
+    {
+      "question": "WHY WAS MY ORDER CANCELED?",
+      "answer": "Orders may be canceled due to payment processing issues or limited stock availability. If your order was canceled, we recommend contacting your financial institution to ensure your billing information is up to date before placing a new order."
+    },
+    {
+      "question": "HOW DO I DETERMINE IF AN ITEM WILL FIT?",
+      "answer": "In order to identify the best fit, please visit our\nsize guide\n. Additional fit details, such as garment measurements can be found on the product page specific to the item.\nMeasurements are displayed in inches unless otherwise noted. For further assistance, contact\nsupport@stussy.com\n."
+    },
+    {
+      "question": "HOW DO I FIND OUT WHEN NEW STYLES ARE RELEASED?",
+      "answer": "Subscribe to our Newsletter or follow us on\nInstagram\nfor early release information."
+    },
+    {
+      "question": "WHEN CAN I EXPECT A RESPONSE FROM CUSTOMER SUPPORT?",
+      "answer": "Our Team will respond within 24-72 hours. Excluding weekends and major holidays."
+    },
+    {
+      "question": "I USED THE INCORRECT ADDRESS. HOW CAN I UPDATE IT?",
+      "answer": "Address updates can be requested, but are not guaranteed. Please review your information before you checkout.\nIf your address is incorrect, you can contact Customer Support with your order number and email address to submit an address update request."
+    },
+    {
+      "question": "MY PACKAGE IS BEING RETURNED TO SENDER. WHAT ARE THE NEXT STEPS?",
+      "answer": "Once your order has been returned to our warehouse, it will be fully refunded upon delivery. We do not re-ship orders."
+    },
+    {
+      "question": "I PLACED MULTIPLE ORDERS, CAN I COMBINE THEM?",
+      "answer": "Once your order is placed, we are unable to combine shipments on multiple orders."
+    },
+    {
+      "question": "I RECEIVED A DAMAGED PRODUCT, WHAT SHOULD I DO?",
+      "answer": "Please contact\nsupport@stussy.com\nwithin 24-48 hours of delivery. In your email, we ask that you provide detailed images of the product(s) in question and the packing slip for your order."
+    },
+    {
+      "question": "CAN I RETURN MY ONLINE ORDER IN STORE?",
+      "answer": "Online orders must be returned through our\nonline return portal\nas chapter stores only accept returns for in-store purchases. No exceptions."
+    },
+    {
+      "question": "I RECEIVED A TRACKING NUMBER, BUT THE SHIPMENT HASN'T MOVED.",
+      "answer": "Tracking numbers are generated when your shipping label is created. Allow 1-3 business days for the courier to scan the package for updates."
+    },
+    {
+      "question": "MY TRACKING INFORMATION STATES THAT MY ORDER WAS DELIVERED. BUT I HAVE NOT RECEIVED IT. WHAT DOES THIS MEAN?",
+      "answer": "Packages occasionally arrive after the stated delivery time. Please allow 48 hours before reaching out — if your order still hasn't shown up, contact us at\nsupport@stussy.com\nand we'll look into it.."
+    },
+    {
+      "question": "IF AN ITEM IS SOLD OUT, WHEN WILL IT BE AVAILABLE AGAIN?",
+      "answer": "Stussy.com displays real time-inventory. Unfortunately an item is no longer available if you don't see it on our website. Please note some items will allow you to sign up for back in stock notifications in product details."
+    },
+    {
+      "question": "CAN I GET SOME FREE STICKERS?",
+      "answer": "Stickers are included in online orders but aren't guaranteed, as they're subject to availability."
+    },
+    {
+      "question": "CAN I RETURN COLLABORATION ITEMS?",
+      "answer": "All sales are final\nfor any purchases on Nike, limited editions, and special collaboration items."
+    }
+  ]
+}
