@@ -6,6 +6,10 @@ of the public Stüssy storefront as it looked on 24 November 2026.
 
 The goal is education: responsive layout, shared React components, CSS systems, data
 modeling, server actions, SQLite, authentication, form handling, and end-to-end tests.
+
+I am sharing it publicly for learning about frameworks and website design, not as a
+product or a store.
+
 The project is not an official Stüssy site, is not affiliated with Stüssy, and is not
 intended for commercial use. Stüssy names, logos, product photos, editorial photos, and
 copy belong to Stüssy. The HelveticaNeue font files belong to their licensors.
